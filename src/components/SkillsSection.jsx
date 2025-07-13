@@ -3,8 +3,8 @@ import { useState } from "react"
 
 const skills =[ 
    // --- Core Programming Languages ---
-  { name: 'Python', level: 80, category: 'all' }, // Core for both AI/ML/Data and some back-end
-  { name: 'JavaScript', level: 60, category: 'all' }, // Core for web dev (front and back)
+  { name: 'Python', level: 80, category: 'all' }, 
+  { name: 'JavaScript', level: 60, category: 'all' }, 
 
   // --- AI/ML ---
   { name: 'Machine Learning', level: 75, category: 'ai/ml' },
@@ -23,7 +23,7 @@ const skills =[
 
   // --- Back-End & Cloud/DevOps ---
   { name: 'API Development (RESTful)', level: 50, category: 'back-end' },
-  { name: 'Cloud Platforms (AWS/GCP/Azure)', level: 40, category: 'back-end' }, // Often linked to backend deployment
+  { name: 'Cloud Platforms (AWS/GCP/Azure)', level: 40, category: 'back-end' }, 
 
   // --- Tools ---
   { name: 'Git & GitHub', level: 80, category: 'tools' },
@@ -32,7 +32,7 @@ const skills =[
 
 
 
-const categories = ["all", "front-end", "back-end", "ai/ml", "data", "tools"]
+const categories = ["all", , "ai/ml", "front-end", "back-end", "data", "tools"]
 
 export const SkillsSection = () => { 
     const [activeCategory, setActiveCategory] = useState("all")
